@@ -19,7 +19,7 @@ async def olum_hatirlat():
     print("Mesaj Gönderildi!")
 
 
-schedule.every().day.at("00:00").do(lambda: asyncio.run(olum_hatirlat()))
+schedule.every().day.at("01:00").do(lambda: asyncio.run(olum_hatirlat()))
 
 
 while True:
