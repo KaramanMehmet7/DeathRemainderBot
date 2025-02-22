@@ -6,8 +6,8 @@ import time
 import asyncio
 
 
-API_TOKEN = "7864569160:AAF0xn7iVgfsKComkBXx5Mwhyv6SZFleFU8"
-CHAT_ID = "5578759592"
+API_TOKEN = ""
+CHAT_ID = ""
 
 
 app = ApplicationBuilder().token(API_TOKEN).build()
